@@ -1,0 +1,149 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+.descr{
+ display:none;
+ 
+ }
+
+.esci{
+ display:none;
+ 
+ }
+ .esci1{
+  display:block;
+ }
+
+ .dis{ 
+  display:block;
+ }
+ 
+ .hello{
+  display:none;
+ }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+.descr{
+ display:none;
+ 
+ }
+.esci{
+ display:none;
+ 
+ }
+ .esci1{
+  display:block;
+ }
+ 
+ .dis{ 
+  display:block;
+ }
+ 
+ .hello{
+  display:none;
+ }
+
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+
+
+
+
+.descr{
+ display:block;
+ 
+ }
+ 
+ .esci{
+ display:block;
+ 
+ }
+ .esci1{
+  display:none;
+ }
+
+.dis{ 
+  display:none;
+ }
+ 
+ .hello{
+  display:block;
+ }
+
+
+
+
+}
+/*added by rh*/
+#webOfScience{
+    margin-left:50px;
+}
+#ESCI_button_not{
+    margin-left:80px;
+}
+#elsevier_scopus1{
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    #webOfScience{
+        margin-left:0px;
+        margin-bottom: 10px;
+    }
+    #ESCI_button_not{
+        margin-left:80px;
+        margin-bottom: 10px;
+    }
+    #elsevier_scopus1{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+
+
+
+
+
+} 
+
+
